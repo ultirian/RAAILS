@@ -1,2 +1,2 @@
 # RAAILS
-RAAILS - University dissertation deliverable that automates and assists in the reconisance and enumeration parts of a penetration test.
+RAAILS - University dissertation deliverable that automates and assists in a penetration test's reconnaissance and enumeration parts.
