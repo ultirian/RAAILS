@@ -1,4 +1,6 @@
-# echo-client.py
+#!/usr/bin/python
+
+#echo-client.py
 
 import socket
 
