@@ -8,7 +8,7 @@ from halo import Halo
 HOST = "127.0.0.1"  # Standard loopback interface address (localhost)
 PORT = 65432  # Port to listen on (non-privileged ports are > 1023)
 
-# Rotating line on windows, on linux dots to show that the server is listening. 
+# Rotating line on windows, on linux dots to show that the server is listening. https://github.com/manrajgrover/halo
 spinner = Halo(text='Loading', spinner='dots')
 spinner.start()
     
