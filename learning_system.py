@@ -230,11 +230,11 @@ class LearningSystem(SystemScanner):
             print(f"\n \u26A0\ufe0f   No response from {hostip}. Ending scan. \u26A0\ufe0f")
             return
 
-        with Halo(text='Running Scan...: \n', spinner='dots'):
+        with Halo(text='\n\n\n Running Scan...: \n\n\n', spinner='dots'):
             print("\n")
             tg.print_host_ip_table(hostname, hostip)
 
-        with Halo(text='Running Scan...for service and port descovery...: \n', 
+        with Halo(text='\n\n\n Running Scan...for service and port descovery...: \n\n\n',
                   spinner='dots', 
                   color='green'):
             print("Using the following scan group: \n")
@@ -269,7 +269,7 @@ class LearningSystem(SystemScanner):
                 ns.search_by_cpe_name(formated_cpe)
 
         # This then compares the port_ids list to the IANA port list and prints the results.
-        with Halo(text='Running Scan...against NIST Database: \n', spinner='dots', color='red'):
+        with Halo(text='\n\n\n Running Scan...against NIST Database: \n\n\n', spinner='dots', color='red'):
             print('\n')
 
         # File path to the modified IANA port list json file.

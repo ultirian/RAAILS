@@ -18,6 +18,7 @@ def print_host_ip_table(hostname, hostip):
     table.add_column("IP")
 
     table.add_row(hostname, hostip)
+    console.print("\n")
     console.print(table)
 
 # Prints table from dictionary in nmap_scan_groups.py
@@ -29,6 +30,7 @@ def print_dictonary_table(dict_to_print):
     table.add_column("Description")
     for switch, description in dict_to_print.items():
         table.add_row(switch, description)
+    console.print("\n")
     console.print(table)
 
 # Prints table from Nmap parsed data from xml_parser.py
@@ -62,6 +64,8 @@ def print_nmap_parsed(parsed_to_print):
                 service_version,
                 cpes
             )
+
+    console.print("\n")
     console.print(table)
 
 def print_nist_tables(id_list, score_list, description_list):
@@ -74,6 +78,8 @@ def print_nist_tables(id_list, score_list, description_list):
     for id, score, description in zip(id_list, score_list, description_list):
         # score is seen as a "float" so needs to be converted to a string
         table.add_row(id, str(score), description)
+
+    console.print("\n")
     console.print(table)
 
 def print_iana_results(result):
@@ -87,6 +93,8 @@ def print_iana_results(result):
         xrefs = ",".join([f"{xref['_type']}: {xref['_data']}" for xref in record['xref']])
         table.add_row(record['number'], record['protocol'], record['description'], xrefs)
     console = Console()
+
+    console.print("\n")
     console.print(table)
 
 def print_port_results_learning(result):
@@ -109,5 +117,5 @@ def print_port_results_learning(result):
             record["RFC"],
             record["link"]
         )
-     
+    console.print("\n")
     console.print(table)

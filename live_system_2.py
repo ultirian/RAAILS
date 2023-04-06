@@ -106,11 +106,11 @@ class ScanSystem:
         if hostip is None:
             raise ValueError("\n \U0001F622 Host or IP not set \U0001F622 \n")
 
-        with Halo(text='Running Scan...: \n', spinner='dots'):
+        with Halo(text='\n\n\n Running Scan...: \n\n\n', spinner='dots'):
             print("\n")
             tg.print_host_ip_table(hostname, hostip)
 
-        with Halo(text='Running Scan...for service and port descovery...: \n',
+        with Halo(text='\n\n\n Running Scan...for service and port descovery...: \n\n\n',
                   spinner='dots',
                   color='green'):
             print("Using the following scan group: \n")
@@ -149,7 +149,7 @@ class ScanSystem:
         file_path = 'IANA_convertjson.json'
 
         # This then compares the port_ids list to the IANA port list and prints the results.
-        with Halo(text='Running Scan...against NIST Database: \n', spinner='dots', color='red'):
+        with Halo(text='\n\n\n Running Scan...against NIST Database: \n\n\n', spinner='dots', color='red'):
             print('\n')
             record = IANAPortList.search_numbers_in_list_ret_record(
                 file_path,
