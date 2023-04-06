@@ -1,0 +1,180 @@
+{
+    "record": [
+      {
+         "protocol": "tcp",
+         "description": "FTP uses control and data channels, each using a separate TCP port. Port 21 is for the control channel, and port 20 is for the data channel.",
+         "number": "20",
+         "name" : "ftp-data",
+         "RFC" : "[RFC959]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc959"
+      },
+      {
+         "protocol": "tcp",
+         "description": "FTP Control Protocol: The objectives of FTP are 1) to promote sharing of files (computer programs and/or data), 2) to encourage indirect or implicit (via programs) use of remote computers, 3) to shield a user from variations in file storage systems among hosts, and 4) to transfer data reliably and efficiently.  FTP, though usable directly by a user at a terminal, is designed mainly for use by programs.",
+         "number": "21",
+         "name" : "ftp",
+         "RFC" : "[RFC959]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc959"
+      },
+      {
+         "protocol": "tcp",
+         "description": "Secure Shell (SSH) is a protocol for secure remote login and other secure network services over an insecure network.  \nIt consists of three major components: \n The Transport Layer Protocol, \nUser Authentication Protocol, \nThe Connection Protocol. The SSH protocol encrypts all communication between the client and the server, including passwords and other sensitive information, making it more secure than traditional communication protocols such as Telnet, FTP, and Rlogin. SSH is commonly used by system administrators, programmers, and other users who need to access remote systems securely and execute commands on them.",
+         "number": "22",
+         "name" : "SSH",
+         "RFC" : "[RFC4251]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc4251.html"
+      },
+      {
+         "protocol": "tcp",
+         "description": "A TELNET connection is a Transmission Control Protocol (TCP) connection used to transmit data with interspersed TELNET control information.",
+         "number": "23",
+         "name" : "telnet",
+         "RFC" : "[RFC854]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc854.html"
+      },
+      {
+         "protocol": "tcp",
+         "description": "SMTP (Simple Mail Transfer Protocol) is a protocol for sending email messages between servers. It is defined in RFC 5321, which specifies the basic framework and requirements for SMTP, and other RFCs update or extend the protocol. Overall, SMTP is a critical component of the email ecosystem, enabling messages to be reliably and securely transmitted between servers and ultimately delivered to recipients' inboxes.",
+         "number": "25",
+         "name" : "Reserved",
+         "RFC" : "[RFC5321]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc5321.html"
+      },
+      {
+         "protocol": "tcp",
+         "description": "The domain system is a mixture of functions and data types which are an official protocol and functions and data types which are still experimental.  Since the domain system is intentionally extensible, new data types and experimental behavior should always be expected in parts of the system beyond the official protocol.  The official protocol parts include standard queries, responses and the Internet class RR data formats (e.g., host addresses).",
+         "number": "53",
+         "name" : "Reserved",
+         "RFC" : "[RFC1035]",
+         "link" : "https://www.ietf.org/rfc/rfc1035.txt"
+      },
+      {
+         "protocol": "tcp",
+         "description": "The Hypertext Transfer Protocol (HTTP) is a stateless application-level protocol for distributed, collaborative, hypertext information systems. This document describes the overall architecture of HTTP, establishes common terminology, and defines aspects of the protocol that are shared by all versions. In this definition are core protocol elements, extensibility mechanisms, and the \"http\" and \"https\" Uniform Resource Identifier (URI) schemes.",
+         "number": "80",
+         "name" : "http",
+         "RFC" : "[RFC9110]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc9110.html"
+      },
+      {
+         "protocol": "tcp",
+         "description": "Pop3 is a protocol for retrieving email from a remote server over a TCP/IP connection. It is defined in RFC 1939, which specifies the basic framework and requirements for POP3, and other RFCs update or extend the protocol. Overall, POP3 is a critical component of the email ecosystem, enabling messages to be reliably and securely transmitted between servers and ultimately delivered to recipients' inboxes.",
+         "number": "110",
+         "name" : "pop3",
+         "RFC" : "[RFC1939]",
+         "link" : "https://www.ietf.org/rfc/rfc1939.txt"
+      },
+      {
+         "protocol": "tcp",
+         "description": "sunrpc is a protocol for remote procedure calls (RPCs) over TCP/IP. It is defined in RFC 1057, which specifies the basic framework and requirements for sunrpc, and other RFCs update or extend the protocol. Overall, sunrpc is a critical component of the email ecosystem, enabling messages to be reliably and securely transmitted between servers and ultimately delivered to recipients' inboxes.",
+         "number": "111",
+         "name" : "sunrpc",
+         "RFC" : "[RFC1057]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc1057"
+      },
+      {
+         "protocol": "tcp",
+         "description": "RPC is used by various Windows services, including the Event Viewer, Distributed Component Object Model (DCOM), and Windows Management Instrumentation (WMI). However, port 135 is also a well-known target for attackers trying to exploit vulnerabilities in Windows systems, so it is important to properly secure and monitor systems using this port.",
+         "number": "135",
+         "name" : "MSRPC",
+         "RFC" : "[MS-RPCE]",
+         "link" : "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-rpce/290c38b1-92fe-4229-91e6-4fc376610c15"
+      },
+      {
+         "protocol": "tcp",
+         "description": "Netbios is a protocol for remote procedure calls (RPCs) over TCP/IP. It is defined in RFC 1002, which specifies the basic framework and requirements for Netbios, and other RFCs update or extend the protocol. Neybios allows messages sent to span multiple messages, and is used to send messages to a specific computer on a network.",
+         "number": "139",
+         "name" : "Netbios-ssn",
+         "RFC" : "[RFC1002]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc1002.html"
+      },
+      {
+         "protocol": "tcp",
+         "description": "IMAP allows a client to access email messages on a remote server. It is defined in RFC 3501, which specifies the basic framework and requirements for IMAP, and other RFCs update or extend the protocol. Overall, IMAP is a critical component of the email ecosystem, enabling messages to be reliably and securely transmitted between servers and ultimately delivered to recipients' inboxes.",
+         "number": "143",
+         "name" : "IMAP",
+         "RFC" : "[RFC9051]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc9051.html"
+      },
+      {
+         "protocol": "tcp",
+         "description": "When a client establishes a connection to a server over port 443, the connection is encrypted using TLS/SSL, which provides security and privacy for any data transmitted over the connection, such as login credentials, personal information, or financial transactions. This is why port 443 is commonly used for secure web traffic, such as online banking, e-commerce, and other sensitive online transactions.",
+         "number": "443",
+         "name" : "HTTPS",
+         "RFC" : "[RFC9110]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc9110"
+      },
+
+      {
+         "protocol": "tcp",
+         "description": "SMB is used by various Windows services, including file and printer sharing, remote administration, and other network-related services. However, port 445 is also a well-known target for attackers trying to exploit vulnerabilities in Windows systems, so it is important to properly secure and monitor systems using this port.",
+         "number": "445",
+         "name" : "Reserved",
+         "RFC" : "[SMB]",
+         "link" : "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/direct-hosting-of-smb-over-tcpip"
+      },
+      {
+         "protocol": "tcp",
+         "description": "The Internet Message Access Protocol Version 4rev2 (IMAP4rev2) allows a client to access and manipulate electronic mail messages on a server. IMAP4rev2 permits manipulation of mailboxes (remote message folders) in a way that is functionally equivalent to local folders. IMAP4rev2 also provides the capability for an offline client to resynchronize with the server.",
+         "number": "993",
+         "name" : "[IMAP over SSL]",
+         "RFC" : "[RFC9051]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc9051.html"
+      },
+
+      {
+         "protocol": "tcp",
+         "description": "The TLS protocol (formerly known as SSL) provides a way to secure an application protocol from tampering and eavesdropping.  The option of using such security is desirable for IMAP, POP and ACAP due to common connection eavesdropping and hijacking attacks.",
+         "number": "995",
+         "name" : "[Pop3 over TLS]",
+         "RFC" : "[RFC2595]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc2595.html"
+      },
+
+      {
+         "protocol": "tcp",
+         "description": "PPTP is used to create a virtual private network (VPN) connection between a client and a server. The client sends data through the PPTP tunnel to the server, which decrypts the data and forwards it to its intended destination. This allows for secure communication over an unsecured network such as the Internet.",
+         "number": "1723",
+         "name" : "PPTP",
+         "RFC" : "[RFC2637]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc2637.html"
+      },
+
+      {
+         "protocol": "tcp",
+         "description": "When a client connects to a MySQL server, it typically uses port 3306 to establish a TCP/IP connection. Once the connection is established, the client can then send SQL commands to the server to query or modify data stored in the database.",
+         "number": "3306",
+         "name" : "Reserved",
+         "RFC" : "[MySQL]",
+         "link" : "https://downloads.mysql.com/docs/mysql-port-reference-en.pdf"
+      },
+
+      {
+         "protocol": "tcp",
+         "description": "WBT Server is responsible for handling incoming remote desktop connections to Windows Server systems. It allows multiple users to simultaneously access a Windows Server system remotely, using a variety of client devices such as Windows PCs, Macs, and mobile devices.",
+         "number": "3389",
+         "name" : "ms-wbt-server",
+         "RFC" : "[MSWBT]",
+         "link" : "https://learn.microsoft.com/en-us/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol"
+      },
+
+      {
+         "protocol": "tcp",
+         "description": "TCP port 5900 is the default port used by the Remote Frame Buffer (RFB) protocol, which is used by Virtual Network Computing (VNC) software to remotely control a computer's desktop.",
+         "number": "5900",
+         "name" : "rfb",
+         "RFC" : "[RFC6143]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc6143"
+      },
+
+
+      {
+         "protocol": "tcp",
+         "description": "HTTP Alternate (see port 80)",
+         "number": "8080",
+         "name" : "http-alt",
+         "RFC" : "[RFC7231]",
+         "link" : "https://www.rfc-editor.org/rfc/rfc7231"
+      }
+    ]
+}

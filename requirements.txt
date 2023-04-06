@@ -1,0 +1,12 @@
+halo
+ipaddress
+json
+openai
+requests
+rich
+shlex
+shutil
+subprocess
+sys
+time
+tldextract
