@@ -5,7 +5,6 @@ __author__ = 'Chris Weaver'
 __version__ = '0.0.5'
 __license__ = 'MIT'
 
-
 import sys
 
 from live_system_2 import LiveSystem
@@ -126,6 +125,7 @@ if __name__ == "__main__":
         console.print("[bold red]2: Live System[/]")
         console.print("[bold blue]3: Exit[/]")
         # get user input
+        
         choice = console.input("~>: ")
         # Call the switch_case method based on the user's input
         my_switch.switch_case_toplevel(choice)
