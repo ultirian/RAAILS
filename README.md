@@ -11,9 +11,11 @@ Download and install python from https://www.python.org/downloads/ latest versio
 
 ![image](https://user-images.githubusercontent.com/56263796/230507633-0c498028-92bc-4ce6-8679-093636584abd.png)
 
-Select relevant file to your OS:
+Select relevant file path for your OS:
 
 ![image](https://user-images.githubusercontent.com/56263796/230507666-cf6d3c0e-083d-42e2-9b19-eae69cbd4a89.png)
+
+NMap is required to run.
 
 Install Nmap on windows: 
 
@@ -37,3 +39,5 @@ This is the same for linux! Nice!
 ![image](https://user-images.githubusercontent.com/56263796/230508844-c2e497a8-7b62-4df8-a70e-e12bf1de456a.png)
 
 Run the program and all should work! let me know if you have any issues!
+
+All additional prompts are provided in program. 
