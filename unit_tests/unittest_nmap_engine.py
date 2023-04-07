@@ -12,7 +12,8 @@ class TestNMapRunner(unittest.TestCase):
     # Test the scan_single_ip_ports method in the NMapRunner class
     @patch('subprocess.run')
     def test_scan_single_ip_ports(self, mock_subprocess_run):
-        # Set up the mock completed process with sample XML content
+        # Set up the mock completed process with sample XML content while this is not how the xml
+        # content is generated, it is sufficient for testing the parsing of the XML content.
         sample_xml_content = b"""<?xml version="1.0" encoding="UTF-8"?>
         <nmaprun args="nmap -Pn -sT -p 1-1024 192.168.1.1">
         </nmaprun>
