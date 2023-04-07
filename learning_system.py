@@ -22,6 +22,9 @@ from rich.console import Console
 
 class SystemScanner:
     """This class will be used to scan the system for ports and services."""
+    def __init__(self, learning_system):
+        self.learning_system = learning_system
+
     def scan_test_server(self):
         """Scan the test server, this will be a remote VM host that rotates 5 random ports every
         5 minutes the server is up for testing initally only, the text below is prototype text."""
