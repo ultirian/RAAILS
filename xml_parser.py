@@ -53,7 +53,8 @@ class DetailedOutputParser:
         """
         parsed_data = []
         root = ET.fromstring(xml)
-        nmap_args = root.attrib['args']
+        nmap_args = shlex.split(root.attrib['args'])
+
 
         for host in root.findall('host'):
             address = host.find('address').attrib['addr']

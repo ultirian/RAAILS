@@ -63,3 +63,4 @@ class NMapRunner:
             completed.stdout.decode('utf-8'))
 
         return args, data, completed.stderr
+
