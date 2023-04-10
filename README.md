@@ -48,7 +48,8 @@ _While in the install directory of rails type:_
 python3 install_lib.py
 ```
 
-![image](https://user-images.githubusercontent.com/56263796/230508538-04258411-e88f-4013-822c-9d47f1b6dd42.png)
+![image](https://user-images.githubusercontent.com/56263796/231000866-542aaa35-036f-4c74-a550-9982278bd4b7.png)
+
 
 This is the same for linux! Nice! 
 
