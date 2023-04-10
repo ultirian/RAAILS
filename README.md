@@ -40,10 +40,12 @@ Navigate to where you have saved the RAAILS folder
 
 __Installing required libaries:__ 
 
+A short program has been included to install all the required libaries. This should loop through the requirements.txt file and install the packages for you!
+
 _While in the install directory of rails type:_ 
 
 ```bash
-pip install -r requirements.txt
+python3 install_lib.py
 ```
 
 ![image](https://user-images.githubusercontent.com/56263796/230508538-04258411-e88f-4013-822c-9d47f1b6dd42.png)
