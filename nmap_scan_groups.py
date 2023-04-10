@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """ Scan groups for easy calling of nmap scans and descriptors """
-__author__ = 'Chris Weaver'
+
 __version__ = '0.0.3'
 __license__ = 'MIT'
 # TCP SYN scan all ports, tries to guess the operating system. 
