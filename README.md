@@ -40,8 +40,11 @@ Navigate to where you have saved the RAAILS folder
 
 __Installing required libaries:__ 
 
-then type pip install -r requirements.txt
+then type 
 
+```bash
+pip install -r requirements.txt
+```
 
 ![image](https://user-images.githubusercontent.com/56263796/230508538-04258411-e88f-4013-822c-9d47f1b6dd42.png)
 
