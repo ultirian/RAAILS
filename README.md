@@ -44,12 +44,9 @@ All additional prompts are provided in program.
 
 If you could be so kind and also help me by completing these evaluation forms it would help greatly! 
 
-Enumeration Questionare: 
-https://forms.office.com/e/snd3yp0kLV
+Enumeration Questionare: https://forms.office.com/e/snd3yp0kLV
 
-RAAILS Usability Questionare:
-
-https://forms.office.com/e/v902hHQTJy
+RAAILS Usability Questionare: https://forms.office.com/e/v902hHQTJy
 
 
 
