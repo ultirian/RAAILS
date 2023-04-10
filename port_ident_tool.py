@@ -4,7 +4,6 @@
 of ports from live systems scan data stream and outputting what the 
 port is useful for"""
 
-__author__ = 'Chris Weaver'
 __version__ = '0.0.1'
 __license__ = 'MIT'
 

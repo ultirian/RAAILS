@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """ RAAILS Main program calls in other functions from within program """
-__author__ = 'Chris Weaver'
+
 __version__ = '0.0.1'
 __license__ = 'MIT'
 

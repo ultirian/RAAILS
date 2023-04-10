@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """ Functions for printing tables to the console"""
-__author__ = 'Chris Weaver'
+
 __version__ = '0.0.6'
 __license__ = 'MIT'
 # https://rich.readthedocs.io/

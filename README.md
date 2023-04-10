@@ -17,6 +17,10 @@ Select relevant file path for your OS:
 
 NMap is required to run.
 
+pip installation: 
+
+https://pip.pypa.io/en/stable/installation/
+
 Install Nmap on windows: 
 
 https://nmap.org/book/inst-windows.html#:~:text=Installing%20the%20Nmap%20zip%20binaries,Nmap%20executable%20and%20data%20files.
@@ -41,3 +45,13 @@ This is the same for linux! Nice!
 Run the program and all should work! let me know if you have any issues!
 
 All additional prompts are provided in program. 
+
+If you could be so kind and also help me by completing these evaluation forms it would help greatly! 
+
+Enumeration Questionare: https://forms.office.com/e/snd3yp0kLV
+
+RAAILS Usability Questionare: https://forms.office.com/e/v902hHQTJy
+
+
+
+
