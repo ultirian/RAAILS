@@ -6,7 +6,7 @@ but not yet implemented"""
 import json
 import requests
 import table_generator as tg
-__author__ = 'Chris Weaver'
+
 __version__ = '0.0.7'
 __license__ = 'MIT'
 
