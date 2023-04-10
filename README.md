@@ -21,7 +21,9 @@ pip installation:
 
 https://pip.pypa.io/en/stable/installation/
 
-Install Nmap on windows: 
+Install Nmap on windows:
+
+Windows will ask to elevate this program as admin, this is required to run.
 
 https://nmap.org/book/inst-windows.html#:~:text=Installing%20the%20Nmap%20zip%20binaries,Nmap%20executable%20and%20data%20files.
 
@@ -30,6 +32,8 @@ Install Nmap on Linux:
 https://nmap.org/book/inst-linux.html
 
 Install requirements:
+
+Your user needs to be sudo to run this program correctly in linux. 
 
 Navigate to where you have saved the RAAILS folder
 
