@@ -7,7 +7,6 @@ It has 2 static methods: validate_ip, is_valid_hostname.
 Also uses the tldextract module to extract the domain name from 
 a URL and ipaddress module to validate IP addresses."""
 
-__author__ = 'Chris Weaver'
 __version__ = '0.1.0'
 __license__ = 'MIT'
 # https://docs.python.org/3/library/ipaddress.html
