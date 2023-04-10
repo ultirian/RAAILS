@@ -14,6 +14,7 @@ import shutil
 # https://docs.python.org/3/library/subprocess.html
 import subprocess
 import xml_parser
+import getpass
 
 class NMapRunner:
     """
@@ -36,10 +37,13 @@ class NMapRunner:
 
         # check if not running on Windows (sudo is not available on Windows) try for Linux.
         if os.name != 'nt':
-            sudo = shutil.which('sudo', mode=os.F_OK | os.X_OK)
-            if not sudo:
-                raise ValueError("Sudo is not installed on this system")
-            self.sudo = sudo
+            # Check if the current user has sudo privileges
+            result = subprocess.run(['sudo', '-l'], input=getpass.getpass(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            if result.returncode == 0:
+                self.sudo = 'sudo'
+            else:
+                self.sudo = None
+                print("Current user does not have sudo privileges")
 
     def scan_single_ip_ports(self, *, hosts_ip: str, sudo: bool = True, scan_group: dict):
         """Run nmap and return the results as func"""
