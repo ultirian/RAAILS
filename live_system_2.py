@@ -5,7 +5,6 @@
 additional scans can be added to over time."""
 #!/usr/bin/env python3
 
-__author__ = 'Chris Weaver'
 __version__ = '0.0.7'
 __license__ = 'MIT'
 
