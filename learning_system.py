@@ -4,7 +4,6 @@
 However adding a database to call verbose print statements may help order information using a lib
 such as SQL Alchemy and a database such as MySQL or SQLite. This will be a future feature."""
 
-__author__ = 'Chris Weaver'
 __version__ = '0.0.7'
 __license__ = 'MIT'
 
