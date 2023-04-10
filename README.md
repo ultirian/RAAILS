@@ -40,7 +40,7 @@ Navigate to where you have saved the RAAILS folder
 
 __Installing required libaries:__ 
 
-then type 
+*While in the install directory of rails type:* 
 
 ```bash
 pip install -r requirements.txt
