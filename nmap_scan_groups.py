@@ -43,7 +43,7 @@ NMAP_EXTERNAL_SS_SC_SV_OS_1000 = {
 NMAP_EXTERNAL_ST = {
     '-sT': 'TCP Connect Scan',
     '-T5': 'Aggressive timing template',
-    '-p-': 'All ports',
+    '-F': 'Fast scan, scan top 100 ports',
     '-oX -': 'Send XML output to STDOUT, avoid creating a temp file',
 }
 
@@ -51,7 +51,7 @@ NMAP_EXTERNAL_ST = {
 NMAP_EXTERNAL_SA = {
     '-sA': 'TCP ACK Scan',
     '-T5': 'Aggressive timing template',
-    '-p-': 'All ports',
+    '-F': 'Fast scan, scan top 100 ports',
     '-oX -': 'Send XML output to STDOUT, avoid creating a temp file',
 }
 # UDP Scan (-sU)            https://nmap.org/book/scan-methods-udp-scan.html
