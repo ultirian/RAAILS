@@ -3,3 +3,4 @@ ipaddress
 requests
 rich
 tldextract
+art
